@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Churn Prediction</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <style>
+        body {
+            background-color: rgb(47, 164, 231);
+        }
+    
+        /* Rest of your CSS styles */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        /* ... */
+    </style>
+    <h1>Customer Churn Prediction</h1>
+    <form method="POST" action="/">
+        <!-- <label for="customer_status">Customer Status:</label>
+        <select id="customer_status" name="customer_status">
+            <option value="0">Stayed</option>
+            <option value="1">Churned</option>
+            <option value="2">Joined</option>
+        </select> -->
+
+        <label for="contract_type">Contract Type:</label>
+        <select id="contract_type" name="contract_type">
+            <option value="1">One Year</option>
+            <option value="2">Two Year</option>
+            <option value="3">Month-to-Month</option>
+        </select>
+
+        <label for="has_internet_service">Has Internet Service:</label>
+        <select id="has_internet_service" name="has_internet_service">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+
+        <label for="payment_method">Payment Method:</label>
+        <select id="payment_method" name="payment_method">
+            <option value="1">Credit Card</option>
+            <option value="2">Bank Withdrawal</option>
+            <option value="3">Mailed Check</option>
+        </select>
+
+        <label for="paperless_billing">Paperless Billing:</label>
+        <select id="paperless_billing" name="paperless_billing">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+
+        <label for="total_monthly_fee">Total Monthly Fee:</label>
+        <input type="text" id="total_monthly_fee" name="total_monthly_fee">
+
+        <label for="senior_citizen">Senior Citizen:</label>
+        <select id="senior_citizen" name="senior_citizen">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age">
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
+
+

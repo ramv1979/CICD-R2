@@ -1,0 +1,409 @@
+{
+  "columns": [
+    {
+      "width": 52,
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false
+    },
+    {
+      "field": "account_id",
+      "title": "account_id",
+      "width": 123,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "customer_id",
+      "title": "customer_id",
+      "width": 132,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "tenure_months",
+      "title": "tenure_months",
+      "width": 150,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "num_referrals",
+      "title": "num_referrals",
+      "width": 141,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "has_internet_service",
+      "title": "has_internet_service",
+      "width": 180,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "internet_type",
+      "title": "internet_type",
+      "width": 138,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "has_unlimited_data",
+      "title": "has_unlimited_data",
+      "width": 175,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "has_phone_service",
+      "title": "has_phone_service",
+      "width": 171,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "has_multiple_lines",
+      "title": "has_multiple_lines",
+      "width": 168,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "has_premium_tech_support",
+      "title": "has_premium_tech_support",
+      "width": 226,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "has_online_security",
+      "title": "has_online_security",
+      "width": 175,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "has_online_backup",
+      "title": "has_online_backup",
+      "width": 173,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "has_device_protection",
+      "title": "has_device_protection",
+      "width": 193,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "contract_type",
+      "title": "contract_type",
+      "width": 140,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "paperless_billing",
+      "title": "paperless_billing",
+      "width": 159,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "payment_method",
+      "title": "payment_method",
+      "width": 165,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "account_id",
+      "title": "account_id",
+      "width": 123,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "avg_long_distance_fee_monthly",
+      "title": "avg_long_distance_fee_monthly",
+      "width": 251,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "total_long_distance_fee",
+      "title": "total_long_distance_fee",
+      "width": 200,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "avg_gb_download_monthly",
+      "title": "avg_gb_download_monthly",
+      "width": 225,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "stream_tv",
+      "title": "stream_tv",
+      "width": 116,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "stream_movie",
+      "title": "stream_movie",
+      "width": 142,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "stream_music",
+      "title": "stream_music",
+      "width": 140,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "total_monthly_fee",
+      "title": "total_monthly_fee",
+      "width": 167,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "total_charges_quarter",
+      "title": "total_charges_quarter",
+      "width": 190,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "total_refunds",
+      "title": "total_refunds",
+      "width": 137,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "customer_id",
+      "title": "customer_id",
+      "width": 132,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "customer_status",
+      "title": "customer_status",
+      "width": 157,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "churn_label",
+      "title": "churn_label",
+      "width": 127,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "churn_category",
+      "title": "churn_category",
+      "width": 151,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "churn_reason",
+      "title": "churn_reason",
+      "width": 198,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "customer_id",
+      "title": "customer_id",
+      "width": 132,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "gender",
+      "title": "gender",
+      "width": 101,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "age",
+      "title": "age",
+      "width": 80,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "senior_citizen",
+      "title": "senior_citizen",
+      "width": 140,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "married",
+      "title": "married",
+      "width": 105,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "num_dependents",
+      "title": "num_dependents",
+      "width": 164,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "zip_code",
+      "title": "zip_code",
+      "width": 111,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "area_id",
+      "title": "area_id",
+      "width": 101,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "zip_code",
+      "title": "zip_code",
+      "width": 111,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "city_name",
+      "title": "city_name",
+      "width": 118,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "latitude",
+      "title": "latitude",
+      "width": 104,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "longitude",
+      "title": "longitude",
+      "width": 116,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "population",
+      "title": "population",
+      "width": 124,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    }
+  ]
+}

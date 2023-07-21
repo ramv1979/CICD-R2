@@ -1,0 +1,227 @@
+{
+  "fields": [
+    {
+      "name": "account_id",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "customer_id",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "tenure_months",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "num_referrals",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "has_internet_service",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "internet_type",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "has_unlimited_data",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "has_phone_service",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "has_multiple_lines",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "has_premium_tech_support",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "has_online_security",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "has_online_backup",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "has_device_protection",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "contract_type",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "paperless_billing",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "payment_method",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "account_id",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "avg_long_distance_fee_monthly",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "total_long_distance_fee",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "avg_gb_download_monthly",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "stream_tv",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "stream_movie",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "stream_music",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "total_monthly_fee",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "total_charges_quarter",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "total_refunds",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "customer_id",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "customer_status",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "churn_label",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "churn_category",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "churn_reason",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "customer_id",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "gender",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "age",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "senior_citizen",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "married",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "num_dependents",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "zip_code",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "area_id",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "zip_code",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "city_name",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "latitude",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "longitude",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "population",
+      "type": "integer",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}
