@@ -3,7 +3,7 @@
 FROM python:3.11-slim
 
 # Set /app as the main application directory
-WORKDIR /app
+WORKDIR /cicd-workflows
 
 # Copy the requirements.txt file and required directories into docker image
 COPY ./requirements.txt /app/requirements.txt
