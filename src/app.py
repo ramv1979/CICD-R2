@@ -15,6 +15,7 @@ def home_page():
         contract_type = request.form['contract_type']
         has_internet_service = request.form['has_internet_service']
         payment_method = request.form['payment_method']
+        paperless_billing =  paperless_billing['paperless_billing']
         total_monthly_fee = request.form['total_monthly_fee']
         senior_citizen = request.form['senior_citizen']
         age = request.form['age']
