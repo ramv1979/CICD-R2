@@ -2,7 +2,7 @@
 # Take your pick from https://hub.docker.com/_/python
 FROM python:3.11-slim
 
-# Set /app as the main application directory
+# Set /app as the main application directory , this means app in src nothing got to do with docker name
 WORKDIR /app
 
 # Copy the requirements.txt file and required directories into docker image
