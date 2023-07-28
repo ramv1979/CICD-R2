@@ -40,3 +40,4 @@ Flask Web Application: 5 / 5 marks
 - [x] Implement Model() class that loads model from .pkl file and generate predictions
 - [x] Web app should support functionality of generating binary predictions
 - [x] Web app is hosted on a publicly accessible website
+# CICD-AI300
