@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_NAME: ram1979/cicd-workflows   # Format: <dockerhub_account>/<repo>
+  IMAGE_NAME: ram1979/cicd-test-v.1   # Format: <dockerhub_account>/<repo>
   IMAGE_TAG: ${{ github.sha }}
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
         
       - name: Build and tag Docker image
-        run: docker build -t ram1979/cicd-workflows:$IMAGE_TAG -t ram1979/cicd-workflows:latest .
+        run: docker build -t ram1979/cicd-test-v.1:$IMAGE_TAG -t ram1979/cicd-test-v.1:latest .
       
       - name: Login to DockerHub
         uses: docker/login-action@v2
