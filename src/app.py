@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request
 from model import Model
 
-app = Flask(__name__)
+app = Flask(__name__) #check whether its pushed!
 
 # Define the mappings or dictionaries
 churn_label_mapping = {0: 'No', 1: 'Yes'}
@@ -15,7 +15,7 @@ def home_page():
         contract_type = request.form['contract_type']
         has_internet_service = request.form['has_internet_service']
         payment_method = request.form['payment_method']
-        paperless_billing =  paperless_billing['paperless_billing']
+        paperless_billing =  request.form['paperless_billing']
         total_monthly_fee = request.form['total_monthly_fee']
         senior_citizen = request.form['senior_citizen']
         age = request.form['age']
