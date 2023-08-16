@@ -4,6 +4,7 @@ I've choose the catboost model with hyperparameter tuning
 Decided to withdraw customer_status variable as it gives bias answers
 AUC is 0.80 
 http://13.212.164.69/
+http://18.136.200.14/ # this is for CI/CD workflow
 
 ## AI300 Capstone Grading
 
