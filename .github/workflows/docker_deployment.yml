@@ -58,3 +58,10 @@ jobs:
           ssh remote_host "docker run -d -p 80:80 ${IMAGE_NAME}:latest"
 
 
+      - name: Set up Docker
+        run: |
+           sudo apt-get update
+           sudo apt-get install docker.io -y
+           if: runner.os == 'Linux'
+
+
